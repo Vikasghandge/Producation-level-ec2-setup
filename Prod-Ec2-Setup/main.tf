@@ -26,6 +26,15 @@ resource "aws_security_group" "ec2_sg" {
     description = "HTTP access"
   }
 
+  # All Traffic 
+  ingress {
+  from_port   = 0
+  to_port     = 0
+  protocol    = "-1"
+  cidr_blocks = ["0.0.0.0/0"]
+  description = "Allow all inbound traffic"
+}
+
   # Outbound traffic
   egress {
     from_port   = 0
