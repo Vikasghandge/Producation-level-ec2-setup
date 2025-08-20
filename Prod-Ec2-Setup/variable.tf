@@ -19,7 +19,7 @@ variable "ami_id" {
 variable "instance_type" {
   description = "EC2 instance type"
   type        = string
-  default     = "t2.medium"
+  default     = "t2.micro"
 }
 
 variable "root_volume_size" {
