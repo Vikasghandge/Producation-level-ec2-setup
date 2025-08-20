@@ -1,6 +1,6 @@
 region           = "ap-south-1"
 project_name     = "vikas-app"
-ami_id           = "ami-0861f4e788f5069dd"
+ami_id           = "ami-0f918f7e67a3323f0"
 instance_type    = "t3.micro"
 root_volume_size = 30
 key_name         = "demo"
