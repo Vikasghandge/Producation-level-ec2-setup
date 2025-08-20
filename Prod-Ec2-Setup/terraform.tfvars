@@ -1,7 +1,7 @@
 region           = "ap-south-1"
 project_name     = "vikas-app"
 ami_id           = "ami-0861f4e788f5069dd"
-instance_type    = "t2.micro"
+instance_type    = "t3.micro"
 root_volume_size = 30
 key_name         = "demo"
 # vpc_id           = "vpc-xxxxxxxxxxxxxxxxx" # Uncomment and set if not using default VPC
