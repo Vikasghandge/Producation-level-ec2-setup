@@ -3,7 +3,7 @@ project_name     = "vikas-app"
 ami_id           = "ami-0f918f7e67a3323f0"
 instance_type    = "t2.large"
 root_volume_size = 30
-key_name         = "vikas-key"
+key_name         = "demo"
 # vpc_id           = "vpc-xxxxxxxxxxxxxxxxx" # Uncomment and set if not using default VPC
 # subnet_id        = "subnet-xxxxxxxxxxxxxxxxx" # Uncomment and set if not using default subnet
 
