@@ -12,7 +12,7 @@ terraform {
 # backend configuration should be defined in a separate block/file or within terraform block *only with backend*
 terraform {
   backend "s3" {
-    bucket         = "three-tire-bucket-ssm"
+    bucket         = "three-tire-bucket-ssm1"
     key            = "ec2-setup/terraform.tfstate"
     region         = "ap-south-1"
     encrypt        = true
